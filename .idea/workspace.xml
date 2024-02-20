@@ -1,31 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4d30c79-3a1a-4819-8681-236a9eaf3307" name="Changes" comment="" />
+    <list default="true" id="f4d30c79-3a1a-4819-8681-236a9eaf3307" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/02_klass/kodutoo2/src/Inimene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_klass/kodutoo2/src/Palk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game/src/Ese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game/src/JuhuslikKoordinaat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game/src/Soiduk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game/src/Tegelane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_klass/kodutoo2/src/Kasutaja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_klass/kodutoo2/src/Tellimus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/src/Draakon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/Draakon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/src/Maailm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/Maailm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/src/Mangija.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/Mangija.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/src/Ork.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/Ork.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2cJU4jb0nWD6ZbjQ6fZxRHsqfon" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Laptop/oo2024"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Laptop/oo2024&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,6 +61,19 @@
       <option name="presentableId" value="Default" />
       <updated>1707828985981</updated>
     </task>
+    <task id="LOCAL-00001" summary="done">
+      <option name="closed" value="true" />
+      <created>1708426061966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708426061966</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>

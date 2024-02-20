@@ -1,15 +1,15 @@
 import java.util.Random;
 
-public class Mangija {
-    int XCoord;
-    int YCoord;
-    char Symbol;
+public class Mangija extends Tegelane implements JuhuslikKoordinaat {
+
     Suund suund;
+    Ese ese; //klassikomplekt
+    Soiduk soiduk;
 
     public Mangija(Random random, int kaardiKorgus, int kaardiLaius) {
         XCoord =saakordinaat(random, kaardiKorgus);
         YCoord = saakordinaat(random, kaardiKorgus);
-        Symbol = 'D';
+        symbol = 'X';
         suund  = Suund.YLES;
     }
 
@@ -25,17 +25,17 @@ public class Mangija {
                 if (YCoord >1 )YCoord--;
             }
             case ALLA ->
-                {if (YCoord< maailm.kaardiKorgus-1)YCoord++;
+                {if (YCoord < maailm.kaardiKorgus-1)YCoord++;
             }
         case VASAKULE ->
                 {if (XCoord >1 )XCoord--;
             }
         case PAREMALE ->
-                {if (YCoord >maailm.kaardiLaius -1 )XCoord++;
+                {if (XCoord <maailm.kaardiLaius -1 )XCoord++;
                 }
     }
     }
-    private static int saakordinaat(Random random, int kaart) {
+    public int saakordinaat(Random random, int kaart) {
         return random.nextInt(1, kaart - 1);
     }
 }
