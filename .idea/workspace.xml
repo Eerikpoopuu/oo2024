@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f4d30c79-3a1a-4819-8681-236a9eaf3307" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/02_klass/kodutoo2/src/Inimene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_klass/kodutoo2/src/Palk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/src/Ese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/src/JuhuslikKoordinaat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/src/Soiduk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/src/Tegelane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_klass/kodutoo2/kodutoo2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_klassikomplekt/kodutoo3/kodutoo3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kordamine/Failistlugemine/Failistlugemine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kordamine/Failistlugemine/ssd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kordamine/hulk/hulk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kordamine/hulk/src/kolmnurk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kordamine/kordamine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kordamine/src/keskmine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_klass/kodutoo2/src/Kasutaja.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_klass/kodutoo2/src/Tellimus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/src/Draakon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/Draakon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/src/Maailm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/Maailm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/src/Mangija.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/Mangija.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/src/Ork.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/src/Ork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_klassikomplekt/kodutoo3/src/Arvuti.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_klassikomplekt/kodutoo3/src/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_klassikomplekt/kodutoo3/src/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_klassikomplekt/kodutoo3/src/Info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,15 +44,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Laptop/oo2024&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Laptop/oo2024/kordamine/Failistlugemine",
+    "onboarding.tips.debug.path": "C:/Users/Laptop/oo2024/kordamine/Failistlugemine/src/Main.java"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Laptop\oo2024\kordamine\Failistlugemine" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

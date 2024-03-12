@@ -1,0 +1,10 @@
+Retsept: kartulisalat
+Koostisosad:
+- 100.0 g kartul
+ (Valk: 10g, Rasv: 5g, Süsivesikud: 12g)
+- 50.0 g porgand
+ (Valk: 5g, Rasv: 7g, Süsivesikud: 7g)
+Kogus: 
+Valk: 12.5 g
+Rasv: 8.5 g
+Süsivesikud: 15.5 g

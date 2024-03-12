@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01_funktsioon/01_funktsioon.iml" filepath="$PROJECT_DIR$/01_funktsioon/01_funktsioon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kordamine/Failistlugemine/Failistlugemine.iml" filepath="$PROJECT_DIR$/kordamine/Failistlugemine/Failistlugemine.iml" />
       <module fileurl="file://$PROJECT_DIR$/Game/Game.iml" filepath="$PROJECT_DIR$/Game/Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kordamine/hulk/hulk.iml" filepath="$PROJECT_DIR$/kordamine/hulk/hulk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kordamine/kordamine.iml" filepath="$PROJECT_DIR$/kordamine/kordamine.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/oo2024.iml" filepath="$PROJECT_DIR$/.idea/oo2024.iml" />
     </modules>
   </component>

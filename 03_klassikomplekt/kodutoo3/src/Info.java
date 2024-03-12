@@ -1,14 +1,19 @@
 public class Info {
-    String nimi;
-    int ram;
-    String graafikakaart;
-
-    public Info(String nimi, int ram, String graafikakaart) {
-        this.nimi = nimi;
-        this.ram = ram;
-        this.graafikakaart = graafikakaart;
+    public Info(String mudel, int hind, int voimsus, int aasta, double labisoit) {
+        this.mudel = mudel;
+        this.hind = hind;
+        this.voimsus = voimsus;
+        this.aasta = aasta;
+        this.labisoit = labisoit;
     }
-    public void muudaNimetus(String uusNimetus){
-        nimi = uusNimetus;
+
+    String mudel;
+     int hind;
+     int voimsus;
+     int aasta;
+      double labisoit;
+
+    public void Labisoit(double uuslabisoit){
+        labisoit = uuslabisoit;
     }
 }
