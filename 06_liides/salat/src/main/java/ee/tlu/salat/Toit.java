@@ -1,22 +1,24 @@
 package ee.tlu.salat;
 
+import ee.tlu.salat.Toidukomponent;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-//mis koosneb toiduainest ja temaga seotud kogusest toidu sees
-//Klassikomplekt -> Kartul+omadused
-@AllArgsConstructor
+import java.util.List;
+
 @Getter
+@AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class Toidukomponent {
+public class Toit {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-    @ManyToOne
-    ToiudaineEntity toiduaine;
-    int kogus;
+    private Long id;
+    private String nimi;
+    @ManyToMany
+    List<Toidukomponent> toidukomponendid;
+
 
 }

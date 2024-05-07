@@ -14,10 +14,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ToiudaineEntity {
     @Id// kustutamiseks,võtmiseks,muutmiseks
-    String nimetus;
-    int valk;
-    int rasv;
-    int sysivesik;
+    private String nimetus;
+    private int valk;
+    private int rasv;
+    private int sysivesik;
 
 //    public ToiudaineEntity(String nimetus, int valk, int rasv, int sysivesik) {
 //        this.nimetus = nimetus;

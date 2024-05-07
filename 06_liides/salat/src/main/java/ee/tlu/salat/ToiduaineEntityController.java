@@ -2,11 +2,11 @@ package ee.tlu.salat;
 
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin(origins = "http://localhost:3000")
 public class ToiduaineEntityController {
 
 
@@ -44,7 +44,7 @@ public class ToiduaineEntityController {
     @PostMapping("toiduained")
     public List<ToiudaineEntity> lisaToiduaine(@RequestBody ToiudaineEntity toiduaineEntity)
     {
-        if(toiduaineEntity.valk+toiduaineEntity.rasv+toiduaineEntity.sysivesik> 100){
+        if(toiduaineEntity.getValk()+toiduaineEntity.getRasv()+toiduaineEntity.getSysivesik()> 100){
             return toiduaineRepository.findAll();
         }
         //ToiudaineEntity toiduaine =new ToiudaineEntity(nimi,valk,rasv,sysivesik);

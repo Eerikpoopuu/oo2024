@@ -1,26 +1,31 @@
 package ee.tlu.salat;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:3000")
 public class ToidukomponentController {
-    List<Toidukomponent> toidukomponentid = new ArrayList<>();
+    @Autowired
+    ToidukomponentRepository toidukomponentRepository;
 
-    @PostMapping("toidukomponent")
-    public List<Toidukomponent> lisaToidukomponent(@RequestBody Toidukomponent komponent)
-    {
-     toidukomponentid.add(komponent);
+    @GetMapping("toidukomponendid")
+    public List<Toidukomponent> getToidukomponents() {
 
-        return toidukomponentid;
+        return toidukomponentRepository.findAll();
     }
-    @PutMapping("toidukomponent/{index}")
-    public List<Toidukomponent> lisaToidukomponent(@PathVariable int index, @RequestBody Toidukomponent komponent)
-    {
-        toidukomponentid.set(index,komponent);
-
-        return toidukomponentid;
+    @DeleteMapping("toidukomponendid/{id}")
+    public List<Toidukomponent> deleteToidukomponent(@PathVariable Long id){
+        toidukomponentRepository.deleteById(id);
+        return toidukomponentRepository.findAll();
     }
+    @PostMapping("toidukomponendid")
+    public List<Toidukomponent> addToidukomponent(@RequestBody Toidukomponent toidukomponent){
+        toidukomponentRepository.save(toidukomponent);
+        return  toidukomponentRepository.findAll();
+    }
+
+
 }
